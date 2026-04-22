@@ -18,10 +18,10 @@ $p3 = new Pengunjung();
 $p4 = new Pengunjung();
 $p5 = new Pengunjung();
 
-echo "Jumlah Pengunjung (Sebelum Reset): " . Pengunjung::$jumlah . "<br>"; // [cite: 233, 237]
+echo "Jumlah Pengunjung (Sebelum Reset): " . Pengunjung::$jumlah . "<br>";
 
 Pengunjung::reset();
 
-echo "Jumlah Pengunjung (Sesudah Reset): " . Pengunjung::$jumlah . "<br>"; // 
+echo "Jumlah Pengunjung (Sesudah Reset): " . Pengunjung::$jumlah . "<br>";
 
 ?>
