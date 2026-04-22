@@ -16,5 +16,4 @@ $c1->tambah();
 $c2->tambah();
 
 echo counter::$jumlah;
-
 ?>
